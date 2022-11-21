@@ -4,9 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Chat Node.js</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
 </head>
 <body>
+
+    <h1>Chat entre Clientes usando Node.js</h1>
+    <h2>Desarrollado por: David Cornejo B</h2>
+
+    <section class="section" id="mensajes">
+        <h3>Mensajes enviados: </h3>
+
+        <div id="mensajes-servidor" class="mensajes-servidor"></div>
+        <div id="mensajes-cliente" class="mensajes-cliente"></div>
+
+    </section>
+
+    <section class="section" id="enviar">
+        <input class="mensaje" id="input-mensaje" type="text">
+        <input class="button is-large is-sucess is-rounded" id="boton-mensaje" type="submit" value="Enviar">
+
+    </section>
     
 </body>
+
+<script src="./js/public.js"></script>
 </html>
