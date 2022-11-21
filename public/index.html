@@ -9,20 +9,27 @@
 </head>
 <body>
 
-    <h1>Chat entre Clientes usando Node.js</h1>
-    <h2>Desarrollado por: David Cornejo B</h2>
+    <h1 class="title has-text-centered is-1 has-text-primary is-spaced">Chat entre Clientes usando Node.js</h1>
+    <h2 class="title is-3 has-text-centered">Desarrollado por: David Cornejo B</h2>
 
     <section class="section" id="mensajes">
-        <h3>Mensajes enviados: </h3>
+        <h3 class="title">Mensajes enviados: </h3>
 
-        <div id="mensajes-servidor" class="mensajes-servidor"></div>
-        <div id="mensajes-cliente" class="mensajes-cliente"></div>
+        <div class="field" id="mensajes-servidor"></div>
+        <div class="field" id="mensajes-cliente"></div>
 
     </section>
 
     <section class="section" id="enviar">
-        <input class="mensaje" id="input-mensaje" type="text">
-        <input class="button is-large is-sucess is-rounded" id="boton-mensaje" type="submit" value="Enviar">
+        <hr>
+        <div class="field has-addons">
+            <div class="control is-expanded">
+                <input class="input" id="input-mensaje" type="text" placeholder="Escribe un mensaje aquí">
+            </div>
+            <div class="control">
+                <input class="button is-primary is-normal is-outlined is-rounded" id="boton-mensaje" type="submit" value="Enviar">
+            </div>
+        </div>
 
     </section>
     
